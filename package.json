@@ -1,0 +1,30 @@
+{
+  "name": "bypass-api-keys-sdk",
+  "version": "1.0.0",
+  "description": "SDK for signing and authenticating requests",
+  "main": "./lib",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bypasslane/api-keys-js-sdk.git"
+  },
+  "author": "Derek Victory",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bypasslane/api-keys-js-sdk/issues"
+  },
+  "homepage": "https://github.com/bypasslane/api-keys-js-sdk#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.7",
+    "request-promise": "^1.0.2"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "mockery": "^1.4.0",
+    "nock": "^8.0.0",
+    "node-mocks-http": "^1.5.4",
+    "timekeeper": "^0.1.1"
+  }
+}
